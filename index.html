@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Netflix
+    </title>
+    <link rel="shortcut icon" href="img/logo-title.png">
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<style>
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /* body {
+        overflow: hidden;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 0 !important;
+    }
+    
+    body {
+        overflow: -moz-scrollbars-none;
+    }
+    
+    body {
+        -ms-overflow-style: none;
+    }
+    
+    body {
+        overflow: -moz-scrollbars-vertical;
+        overflow-x: hidden;
+        overflow-y: auto;
+    } */
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div class="lang-selector-test our-story-container" dir="ltr">
+            <div class="our-story-header-wrapper row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2 logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="logo-svg" viewBox="0 0 1024 276.742">
+                        <g id="netflix-logo">
+                        <path fill="#d81f26" d="M140.803 258.904c-15.404 2.705-31.079 3.516-47.294 5.676l-49.458-144.856v151.073c-15.404 1.621-29.457 3.783-44.051 5.945v-276.742h41.08l56.212 157.021v-157.021h43.511v258.904zm85.131-157.558c16.757 0 42.431-.811 57.835-.811v43.24c-19.189 0-41.619 0-57.835.811v64.322c25.405-1.621 50.809-3.785 76.482-4.596v41.617l-119.724 9.461v-255.39h119.724v43.241h-76.482v58.105zm237.284-58.104h-44.862v198.908c-14.594 0-29.188 0-43.239.539v-199.447h-44.862v-43.242h132.965l-.002 43.242zm70.266 55.132h59.187v43.24h-59.187v98.104h-42.433v-239.718h120.808v43.241h-78.375v55.133zm148.641 103.507c24.594.539 49.456 2.434 73.51 3.783v42.701c-38.646-2.434-77.293-4.863-116.75-5.676v-242.689h43.24v201.881zm109.994 49.457c13.783.812 28.377 1.623 42.43 3.242v-254.58h-42.43v251.338zm231.881-251.338l-54.863 131.615 54.863 145.127c-16.217-2.162-32.432-5.135-48.648-7.838l-31.078-79.994-31.617 73.51c-15.678-2.705-30.812-3.516-46.484-5.678l55.672-126.75-50.269-129.992h46.482l28.377 72.699 30.27-72.699h47.295z"></path>
+                        </g>
+                        </svg>
+                        </div>
+                        <div class="col-10 header-btn">
+                            <div class="btn-group" role="group">
+                                <div class="col" style="position: relative;">
+                                    <button type="button" class="btn-header">
+                                  <i class=" fa fa-globe "></i>
+                                                     English
+                                  <i class="fa fa-sort-down "></i>
+                                </button>
+                                    <div class="dropdown-lan ">
+                                        <div>Persian</div>
+                                        <div>
+                                            english
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn text-white button-sign " style="background-color: #e50914; ">Sign in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background ">
+        <div class="container div-search ">
+            <h1 class="col display-1 " style="margin-bottom: 0; ">Unlimited movies, TV </h1>
+            <h1 class="col display-1 ">shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <form>
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="container ">
+                    <div class="row ">
+                        <ul class="ul-input ">
+                            <li class="li-input "> <input type="search " class="input-search " id="input ">
+                                <label class="email " for="input ">Email address</label></li>
+                            <li>
+                                <button class="btn-search ">Get Started<i class="btn-icon fa fa-angle-right "></i></button>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="background2 "></div>
+    </div>
+
+    <div class="our-story-card animation-card watchOnTv ">
+        <div class="animation-card-container ">
+            <div class="our-story-card-text ">
+                <h1 class="our-story-card-title ">
+                    Enjoy on your TV.
+                </h1>
+                <h2 class="our-story-card-subtitle ">
+                    Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                </h2>
+            </div>
+            <div class="our-story-card-img-container ">
+                <div class="our-story-card-animation-container ">
+                    <img src="img/tv.png " alt=" " class="our-story-card-img ">
+                    <div class="our-story-card-animation ">
+                        <video autoplay=" " playsinline=" " loop=" " class="our-story-card-video " muted=" ">
+                            <source src="video/video-tv-0819.m4v ">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="our-story-card animation-card watchOnTv our-story-card2 " style="border-top: none; ">
+        <div class="animation-card-container ">
+            <div class="our-story-card-img-container ">
+                <div class="our-story-card-animation-container ">
+                    <img src="img/mobile-0819.jpg " alt=" " class="our-story-card-img ">
+                    <div class="container-sm img-mobile ">
+                        <div class="row ">
+                            <ul style="display: flex; ">
+                                <li class="li-1 "><img src="img/boxshot.png " class="img-1 "></li>
+                                <li class="li-2 ">
+                                    <div class="div-1 ">Stranger Things</div>
+                                    <div style="color:#0071eb ">Downloading...</div>
+                                </li>
+                                <li class="li-3 ">
+                                    <img src="img/download-icon.gif ">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-story-card-text ">
+                <h1 class="our-story-card-title title2 ">
+                    Download your shows to watch offline.
+                </h1>
+                <h2 class="our-story-card-subtitle subtitle2 ">
+                    Save your favorites easily and always have something to watch.
+                </h2>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="our-story-card animation-card watchOnTv" style="border-top:none">
+        <div class="animation-card-container">
+            <div class="our-story-card-text">
+                <h1 class="our-story-card-title">
+                    Watch everywhere.
+                </h1>
+                <h2 class="our-story-card-subtitle">
+                    Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.
+                </h2>
+            </div>
+            <div class="our-story-card-img-container">
+                <div class="our-story-card-animation-container">
+                    <img src="img/device-pile.png" class="our-story-card-img">
+                    <div class="our-story-card-animation2">
+                        <video autoplay="" playsinline="" loop="" class="our-story-card-video" muted="">
+                            <source src="video/video-devices.m4v">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="our-story-card animation-card watchOnTv our-story-card2" style="border-top: none;">
+        <div class="animation-card-container">
+            <div class="our-story-card-img-container">
+                <div class="our-story-card-animation-container">
+                    <img src="img/AAAABdFTpLmANuJpYneLq8L5m7CunMCi8e8Nl4y7xaPVWzG3IeoDoq17egTQAthApKg_4sdRWdwuR8KadWu1frjL3JQImpwq.png " alt=" " class="our-story-card-img " style="margin-top: 4px;">
+
+                </div>
+            </div>
+            <div class="our-story-card-text">
+                <h1 class="our-story-card-title title2">
+                    Create profiles for kids.
+                </h1>
+                <h2 class="our-story-card-subtitle subtitle2">
+                    Send kids on adventures with their favorite characters in a space made just for them—free with your membership.
+                </h2>
+            </div>
+
+
+        </div>
+    </div>
+    <style>
+        /* .our-story-card3 {
+            height: 1086px;
+        } */
+    </style>
+    <div class="our-story-card animation-card watchOnTv our-story-card2 our-story-card3" style="border-top: none;">
+        <h1 class="display-3" style="text-align: center;margin-bottom: 30px;">Frequently Asked Questions</h1>
+        <div class="accordion" id="accordiondiv" style="max-width: 800px; margin: 0 auto;">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is Netflix?
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordiondiv">
+                    <div class="accordion-body">
+                        <strong>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+
+                            You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How much does Netflix cost?
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordiondiv">
+                    <div class="accordion-body">
+                        <strong>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+                            You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How do I cancel?
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordiondiv">
+                    <div class="accordion-body">
+                        <strong>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                        What can I watch on Netflix?
+                </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordiondiv">
+                    <div class="accordion-body">
+                        <strong>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                        Is Netflix good for kids?
+                </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordiondiv">
+                    <div class="accordion-body">
+                        <strong>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+
+                            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <form>
+            <h3 style="margin-top: 40px;text-align: center;">Ready to watch? Enter your email to create or restart your membership.</h3>
+            <div class="container">
+                <div class="row">
+                    <ul class="ul-input">
+                        <li class="li-input"> <input type="search" class="input-search" id="input">
+                            <label class="email" for="input">Email address</label></li>
+                        <li>
+                            <button class="btn-search">Get Started<i class="btn-icon fa fa-angle-right"></i></button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <div class="footer">
+
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+            
+            <div class="col" style="font-size: 12px;color: #3d3939;">
+                <ul class="uu" style="font-size: 12px;color: #3d3939;">
+                    <li>
+<a href="https://www.linkedin.com/in/amirmasoudgaravand/">AmirMasoud Garavand</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/amirmasoudgaravand/">linkedin</a>
+            </li>
+                 <li>
+             <a href="https://codepen.io/masoudy">codepen</a>
+                              </li>
+            <li>
+                <a href="https://github.com/AmirMasoudGaravand">Github</a>
+              </li>
+         <li style="color:white;">+98372793057</li>
+                
+
+            </ul>
+            </div>
+            <div class="col" style="font-size: 12px;color: #3d3939;"><ul style="font-size: 12px;color: #3d3939;"><li>Terms of Use</li>
+                <li>Account</li>
+                <li>Speed Test</li>
+                <li>Contact Us</li>
+                <li>Help Center</li>
+                <li>Account</li>
+        </ul>
+    </div>
+            <div class="col"style="font-size: 12px;color: #3d3939;"><ul style="font-size: 12px;color: #3d3939;"><li>Terms of Use</li>
+                <li>Account</li>
+                <li>Speed Test</li>
+                <li>Legal Notices</li>
+            </ul></div>
+            <div class="col "style="font-size: 12px;color: #3d3939;"><ul style="font-size: 12px;color: #3d3939;"><li>Terms of Use</li>
+                <li>Buy Gift Cards</li>
+                <li>Media Center</li>
+                <li>Account</li></ul></div>
+        </div>
+        <h4 style="margin-top: 22px;margin-right: 10px; margin-left: 10px;padding-bottom: 20px;"><a href="https://www.linkedin.com/in/amirmasoudgaravand/">Powered By AmirMasoud Garavand</a></h4>
+    </div>
+          
+          
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".btn-header").click(function() {
+
+                $(".dropdown-lan").toggleClass("display");
+
+            });
+
+// our-story-card 
+            $(".input-search").focus(function() {
+
+                $(".email").addClass("change-email");
+
+            });
+            $(".div-input-search label").focus(function() {
+
+                $(".div-input-search label").addClass("change-email");
+
+            });
+            $(".background2").click(function() {
+
+                $(".email").removeClass("change-email");
+
+            });
+       
+
+        });
+    </script>
+</body>
+
+</html>

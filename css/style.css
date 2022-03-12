@@ -1,0 +1,1028 @@
+                        html,
+                        body {
+                            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                            color: #333;
+                            font-size: 16px;
+                            direction: ltr;
+                        }
+                        
+                        body {
+                            overflow-x: hidden;
+                        }
+                        
+                        .our-story-container {
+                            width: 100%;
+                        }
+                        
+                        .our-story-header-wrapper {
+                            background-color: transparent;
+                            -webkit-transition: background-color .5s;
+                            -o-transition: background-color .5s;
+                            -moz-transition: background-color .5s;
+                            transition: background-color .5s;
+                            position: relative;
+                            max-width: 1920px;
+                            margin: 0 auto;
+                            padding-top: 20px;
+                            width: 100%;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            height: 5rem;
+                            z-index: 10;
+                        }
+                        
+                        .lang-selector-test .our-story-header {
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -moz-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-orient: horizontal;
+                            -webkit-box-direction: normal;
+                            -webkit-flex-flow: row nowrap;
+                            -moz-box-orient: horizontal;
+                            -moz-box-direction: normal;
+                            -ms-flex-flow: row nowrap;
+                            flex-flow: row nowrap;
+                            -webkit-box-pack: start;
+                            -webkit-justify-content: flex-start;
+                            -moz-box-pack: start;
+                            -ms-flex-pack: start;
+                            justify-content: flex-start;
+                            -webkit-box-align: start;
+                            -webkit-align-items: flex-start;
+                            -moz-box-align: start;
+                            -ms-flex-align: start;
+                            align-items: flex-start;
+                            padding-top: .5rem;
+                            height: auto;
+                        }
+                        
+                        .logo-svg {
+                            /* width="140" height="50.742" */
+                            width: 136px;
+                            height: 38px;
+                        }
+                        
+                        @media only screen and (max-width:930px) {
+                            .logo-svg {
+                                /* width="140" height="50.742" */
+                                width: 110px;
+                                height: 38px;
+                            }
+                        }
+                        
+                        .our-story-header {
+                            position: relative;
+                            margin: 0 3.5rem;
+                            height: 100%;
+                        }
+                        
+                        .logo {
+                            text-align: center;
+                        }
+                        
+                        .header-btn {
+                            text-align: right;
+                            padding-right: 3rem;
+                        }
+                        
+                        .dropdown-lan {
+                            position: absolute;
+                            background: rgb(143, 132, 132);
+                            color: white;
+                            width: 86px;
+                            text-align: left;
+                            display: none;
+                        }
+                        
+                        .dropdown-lan div {
+                            padding-bottom: 4px;
+                            cursor: pointer;
+                            padding-left: 8px;
+                        }
+                        
+                        .dropdown-lan div:hover {
+                            background: #2893f1;
+                        }
+                        
+                        .display {
+                            display: block;
+                        }
+                        
+                        .btn-header {
+                            height: 38px;
+                            line-height: 1.3em;
+                            white-space: nowrap;
+                            border: 1px solid #fff;
+                            font-size: .875rem;
+                            border-radius: 3px;
+                            margin-right: 1.3rem;
+                            background: none;
+                            color: white;
+                            padding-right: 5px;
+                            padding-left: 5px;
+                        }
+                        
+                        .background {
+                            display: block;
+                            position: relative;
+                        }
+                        
+                        .background::after {
+                            content: "";
+                            height: 707px;
+                            background: url("../img/bg.jpg");
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            top: -80px;
+                            left: 0;
+                            bottom: 0;
+                            right: 0;
+                            position: absolute;
+                            z-index: -1;
+                            object-fit: contain;
+                            -webkit-background-size: cover;
+                            -moz-background-size: cover;
+                            -o-background-size: cover;
+                            background-size: cover;
+                            flex: 1;
+                            transform: none;
+                        }
+                        
+                        .background2 {
+                            position: absolute;
+                            background: rgba(0, 0, 0, .5);
+                            background-image: none;
+                            background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .7))), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+                            background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), -webkit-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+                            background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), -moz- oldradial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+                            background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), -o-radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+                            background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%), radial-gradient(50% 100%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .7) 100%);
+                            top: -80px;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            height: 707px;
+                        }
+                        
+                        @media only screen and (max-width:532px) {
+                            .button-sign {
+                                margin-right: -3rem;
+                                height: 31px;
+                                line-height: 1;
+                            }
+                            .logo-svg {
+                                width: 99px;
+                                height: 33px;
+                            }
+                            .btn-header {
+                                margin-right: 1rem;
+                                height: 31px;
+                            }
+                        }
+                        
+                        .div-search {
+                            position: relative;
+                            width: 100%;
+                            padding-top: 145px;
+                            max-width: 950px;
+                            margin: 0 auto;
+                            text-align: center;
+                            z-index: 1;
+                            color: white;
+                            font-weight: bold;
+                        }
+                        
+                        .div-search h1 {
+                            font-size: 3.125rem;
+                            font-weight: bold;
+                        }
+                        
+                        .div-search h2 {
+                            font-size: 1.625rem;
+                        }
+                        
+                        .div-search form {
+                            padding-top: .85rem;
+                        }
+                        
+                        .div-search h3 {
+                            padding-bottom: 20px;
+                            font-size: 1.2rem;
+                        }
+                        
+                        .input-search {
+                            padding-left: 11px;
+                            width: 25rem;
+                            float: right;
+                            height: 3.5rem;
+                        }
+                        
+                        .btn-search:hover {
+                            background: #ee1f29
+                        }
+                        
+                        .btn-search {
+                            background: #e50914;
+                            color: white;
+                            border: none;
+                            height: 3.5rem;
+                            float: left;
+                            width: 15rem;
+                            font-size: 1.5rem;
+                        }
+                        
+                        .btn-icon {
+                            font-size: 1.7rem;
+                            padding-left: .8rem;
+                        }
+                        
+                        .ul-input {
+                            display: flex;
+                            margin-left: 12%;
+                        }
+                        
+                        li {
+                            list-style: none;
+                        }
+                        
+                        .li-search {
+                            position: relative;
+                        }
+                        
+                        @media only screen and (max-width:350px) {
+                            .btn-header {
+                                height: 29px;
+                                font-size: 13px;
+                                margin-right: 4px;
+                            }
+                            .dropdown-lan {
+                                width: 80px;
+                            }
+                            .button-sign {
+                                font-size: 14px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:324px) {
+                            .logo-svg {
+                                width: 92px;
+                            }
+                            .dropdown-lan {
+                                width: 80px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:310px) {
+                            .btn-header {
+                                font-size: 12px;
+                            }
+                            .dropdown-lan {
+                                width: 76px;
+                            }
+                        }
+                        
+                        .email {
+                            position: absolute;
+                            left: 0.8rem;
+                            top: 18px;
+                            cursor: context-menu;
+                            color: #8c8c8c;
+                            transition: font .1s ease, top .1s ease, transform .1s ease, -webkit-transform .1s ease, -moz-transform .1s ease, -o-transform .1s ease;
+                        }
+                        
+                        .change-email {
+                            position: absolute;
+                            left: 0.8rem;
+                            top: 4px;
+                            font-size: 12px;
+                            color: #8c8c8c;
+                        }
+                        
+                        .ul-input {
+                            margin-left: 13%;
+                            display: flex;
+                        }
+                        
+                        .li-input {
+                            position: relative;
+                        }
+                        
+                        @media only screen and (max-width:990px) {
+                            .ul-input {
+                                margin-left: 4%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:946px) {
+                            .ul-input {
+                                display: block;
+                                text-align: center;
+                                margin: 0;
+                            }
+                            .li-input {
+                                max-width: 500px;
+                                left: 9%;
+                            }
+                            .input-search {
+                                width: 100%;
+                            }
+                            .btn-search {
+                                width: 9rem;
+                                font-size: 16px;
+                                height: 40px;
+                                margin: 10px auto;
+                                border-radius: 2px;
+                                padding-bottom: 2px;
+                                position: relative;
+                                left: 34%;
+                            }
+                            .btn-icon {
+                                font-size: 19px;
+                                padding-left: 6px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:766px) {
+                            .li-input {
+                                max-width: 500px;
+                                left: 2%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:622px) {
+                            .li-input {
+                                max-width: 500px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:566px) {
+                            .div-search h1 {
+                                font-size: 1.75rem;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:548px) {
+                            .li-input {
+                                max-width: 464px;
+                            }
+                            .btn-search {
+                                left: 27%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:316px) {
+                            .btn-search {
+                                left: 23%;
+                            }
+                        }
+                        
+                        .tv {
+                            height: 513px;
+                            background: black;
+                            width: 100%;
+                            position: absolute;
+                            top: 707px;
+                            border-bottom: 8px solid #222;
+                            color: white;
+                            border-top: 8px solid #222;
+                        }
+                        
+                        .section-right {
+                            position: relative;
+                            width: 48%;
+                            height: 74%;
+                        }
+                        
+                        .section-left {
+                            text-align: center;
+                            margin-top: 168px;
+                            text-align: center;
+                            padding-left: 10%;
+                        }
+                        
+                        .section-left h1 {
+                            font-weight: bold;
+                            line-height: 1.1;
+                            margin-bottom: .5rem;
+                            text-align: left;
+                            /* margin-left: 15px; */
+                        }
+                        
+                        .section-left h2 {
+                            font-size: 1.3rem;
+                            font-weight: 400;
+                            text-align: left;
+                        }
+                        
+                        .tv .row {
+                            height: 100%;
+                        }
+                        
+                        .background-tv {
+                            background: url('../img/tv.png');
+                            height: auto;
+                            max-width: 100%;
+                        }
+                        /* .them-tv {
+            max-width: 69%;
+            height: auto;
+            position: absolute;
+            top: 6rem;
+            right: 6rem;
+        } */
+                        /* video {
+            max-width: 96%;
+            height: auto;
+            margin-top: -359px;
+            margin-left: 75px;
+            position: absolute;
+            width: 441px;
+        } */
+                        
+                        video {
+                            width: 100%;
+                            height: auto;
+                        }
+                        /* tv */
+                        
+                        .our-story-card {
+                            position: relative;
+                            border-bottom: 8px solid #222;
+                            padding: 50px 5%;
+                            margin-bottom: 0;
+                            color: #fff;
+                            top: 134px;
+                            background: black;
+                            border-top: 8px solid #222;
+                        }
+                        
+                        @media only screen and (min-width:1450px) {
+                            .our-story-card {
+                                padding: 70px 45px;
+                            }
+                        }
+                        
+                        .animation-card .animation-card-container {
+                            max-width: 1100px;
+                            margin: 0 auto;
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -moz-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -webkit-align-items: center;
+                            -moz-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-pack: justify;
+                            -webkit-justify-content: space-between;
+                            -moz-box-pack: justify;
+                            -ms-flex-pack: justify;
+                            justify-content: space-between;
+                        }
+                        
+                        .our-story-card-subtitle,
+                        .our-story-card-text {
+                            font-size: 1.625rem;
+                            font-weight: 400;
+                        }
+                        
+                        .animation-card .our-story-card-text {
+                            width: 52%;
+                            height: 100%;
+                            -webkit-box-flex: 0;
+                            -webkit-flex: 0 1 auto;
+                            -moz-box-flex: 0;
+                            -ms-flex: 0 1 auto;
+                            flex: 0 1 auto;
+                            padding: 0 3rem 0 0;
+                            z-index: 3;
+                        }
+                        
+                        .animation-card.watchOnTv .our-story-card-text {
+                            margin: -5% 0;
+                        }
+                        
+                        .our-story-card-title {
+                            font-size: 3.125rem;
+                            line-height: 1.1;
+                            margin-bottom: .5rem;
+                        }
+                        
+                        .our-story-card-subtitle,
+                        .our-story-card-text {
+                            font-size: 1.625rem;
+                            font-weight: 400;
+                        }
+                        
+                        .animation-card .our-story-card-img-container {
+                            width: 48%;
+                            height: 100%;
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -moz-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-flex: 0;
+                            -webkit-flex: 0 1 auto;
+                            -moz-box-flex: 0;
+                            -ms-flex: 0 1 auto;
+                            flex: 0 1 auto;
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+                        
+                        .animation-card.watchOnTv .our-story-card-animation-container {
+                            margin-top: 2px;
+                        }
+                        
+                        .animation-card.watchOnTv .our-story-card-animation-container {
+                            margin: -10% -5% -5% 0;
+                        }
+                        
+                        img {
+                            max-width: 100%;
+                            height: auto;
+                            border: 0;
+                        }
+                        
+                        .animation-card.watchOnDevice .our-story-card-img,
+                        .animation-card.watchOnTv .our-story-card-img {
+                            position: relative;
+                            z-index: 2;
+                            margin-top: 6px;
+                        }
+                        
+                        .animation-card.watchOnTv .our-story-card-animation {
+                            width: 100%;
+                            height: 100%;
+                            max-width: 73%;
+                            max-height: 54%;
+                            position: absolute;
+                            top: 46%;
+                            left: 72%;
+                            -webkit-transform: translate(-50%, -50%);
+                            -moz-transform: translate(-50%, -50%);
+                            -ms-transform: translate(-50%, -50%);
+                            -o-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                        }
+                        
+                        audio,
+                        canvas,
+                        progress,
+                        video {
+                            display: inline-block;
+                            vertical-align: baseline;
+                        }
+                        
+                        .animation-card.watchOnDevice .our-story-card-video,
+                        .animation-card.watchOnTv .our-story-card-video {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        @media only screen and (max-width:1238px) {
+                            .animation-card.watchOnTv .our-story-card-animation {
+                                left: 74%;
+                            }
+                        }
+                        
+                        .animation-card.watchOnTv .our-story-card-animation2 {
+                            width: 100%;
+                            height: 100%;
+                            max-width: 73%;
+                            max-height: 43%;
+                            position: absolute;
+                            top: 33%;
+                            left: 71%;
+                            -webkit-transform: translate(-50%, -50%);
+                            -moz-transform: translate(-50%, -50%);
+                            -ms-transform: translate(-50%, -50%);
+                            -o-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                        }
+                        
+                        @media only screen and (max-width:1337px) {
+                            .animation-card.watchOnTv .our-story-card-animation2 {
+                                left: 72%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:1279px) {
+                            .animation-card.watchOnTv .our-story-card-animation2 {
+                                left: 74%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:1195px) {
+                            .animation-card.watchOnTv .our-story-card-animation2 {
+                                left: 74%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:1031px) {
+                            .animation-card.watchOnTv .our-story-card-animation2 {
+                                left: 74%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:940px) {
+                            .animation-card.watchOnTv .our-story-card-animation {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 73%;
+                                max-height: 54%;
+                                position: absolute;
+                                top: 46%;
+                                left: 74%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -moz-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                -o-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                            }
+                            .animation-card.watchOnTv .our-story-card-animation2 {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 61%;
+                                max-height: 54%;
+                                position: absolute;
+                                top: 33%;
+                                left: 49%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -moz-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                -o-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                            }
+                            .our-story-card {
+                                height: 645px;
+                            }
+                            .animation-card.watchOnTv .our-story-card-animation {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 87%;
+                                max-height: 54%;
+                                position: absolute;
+                                top: 48%;
+                                left: 49%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -moz-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                -o-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                            }
+                            .our-story-card-title {
+                                font-size: 2.5rem;
+                                text-align: center;
+                            }
+                            .our-story-card-text {
+                                position: relative;
+                                left: 23%;
+                            }
+                            .animation-card.watchOnTv .our-story-card-text {
+                                width: 461%;
+                                position: relative;
+                                left: 4%;
+                                padding-right: 0;
+                            }
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-top: -222px;
+                            }
+                            .our-story-card-animation-container {
+                                position: absolute;
+                                top: 56%;
+                                right: 17%;
+                            }
+                            .our-story-card-subtitle,
+                            .our-story-card-text {
+                                text-align: center;
+                                font-size: 1rem;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:633px) {
+                            .our-story-card {
+                                top: 111px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:517px) {
+                            .our-story-card-title {
+                                font-size: 2rem;
+                            }
+                            .our-story-card-subtitle,
+                            .our-story-card-text {
+                                font-size: .8rem;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:333px) {
+                            .our-story-card {
+                                top: 110px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:400px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-top: -403px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:319px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-top: -83px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:307px) {
+                            .our-story-card {
+                                top: 76px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:576px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-top: -225px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:457px) {
+                            .our-story-card {
+                                height: 493px;
+                            }
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-top: -157px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:347px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-top: -92px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:797px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-right: -8%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:729px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-right: -14%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:665px) {
+                            .animation-card.watchOnTv .our-story-card-animation-container {
+                                margin-right: -17%;
+                            }
+                        }
+                        
+                        .aks {
+                            position: relative;
+                            top: 133px;
+                            background: black;
+                            border-bottom: 8px solid #222;
+                            height: 452px;
+                        }
+                        
+                        .img-mobile {
+                            padding: .5em .75em;
+                            max-width: 332px;
+                            height: 87px;
+                            border-radius: 10px;
+                            border: 2px solid rgba(255, 255, 255, .25);
+                            min-width: 15em;
+                            padding: .25em .65em;
+                            box-shadow: 0 0 2em 0 #000;
+                            background: black;
+                            z-index: 10;
+                            transform: scale(.8);
+                            position: relative;
+                            background: black;
+                            top: -126px;
+                            z-index: 10;
+                            left: 0%;
+                        }
+                        
+                        .img-1 {
+                            height: 4.5rem;
+                        }
+                        
+                        .li-3 {
+                            transform: scale(.8);
+                            margin-top: -12px;
+                            margin-left: 29px;
+                        }
+                        
+                        .li-2 {
+                            margin-top: 10px;
+                            padding-left: 11px;
+                        }
+                        
+                        @media only screen and (max-width:940px) {
+                            .img-mobile {
+                                max-width: 425px;
+                            }
+                            .title2 {
+                                margin-left: -17%;
+                            }
+                            .subtitle2 {
+                                margin-left: -11%;
+                            }
+                            .li-3 {
+                                margin-left: 115px;
+                            }
+                            .our-story-card2 {
+                                height: 711px;
+                            }
+                            .our-story-card3 {
+                                height: auto;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:590px) {
+                            .our-story-card-title {
+                                font-size: 2rem;
+                                text-align: center;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:400px) {
+                            .our-story-card-title {
+                                font-size: 1.8rem;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:586px) {
+                            .img-mobile {
+                                left: -1%;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:546px) {
+                            .img-mobile {
+                                max-width: 371px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:504px) {
+                            .img-mobile {
+                                max-width: 338px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:458px) {
+                            .img-mobile {
+                                max-width: 313px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:542px) {
+                            .li-3 {
+                                margin-left: 54px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:492px) {
+                            .li-3 {
+                                margin-left: 34px;
+                            }
+                        }
+                        
+                        .div-1 {
+                            font-size: 1rem;
+                        }
+                        
+                        @media only screen and (max-width:460px) {
+                            .li-3 {
+                                margin-left: 21px;
+                            }
+                            .li-2 .div-1 {
+                                font-size: .8rem;
+                            }
+                            .li-2 div {
+                                font-size: .8rem;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:396px) {
+                            .img-mobile {
+                                max-width: 282px;
+                                top: -103px;
+                            }
+                            .li-3 {
+                                margin-left: 2px;
+                                margin-top: -13px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:330px) {
+                            .img-mobile {
+                                transform: scale(.7);
+                                top: -93px;
+                            }
+                        }
+                        
+                        .accordion-header {
+                            color: #fff;
+                        }
+                        
+                        .accordion-button {
+                            background: #303030;
+                            color: #fff;
+                        }
+                        
+                        .accordion-item {
+                            margin-bottom: 6px;
+                            color: #fff;
+                            background: #303030;
+                        }
+                        
+                        .accordion-button:not(.collapsed) {
+                            color: #fff;
+                            background: #303030;
+                            /* box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125); */
+                        }
+                        
+                        .accordion-button::after {
+                            flex-shrink: 0;
+                            width: 1.25rem;
+                            height: 1.25rem;
+                            margin-left: auto;
+                            content: "";
+                            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+                            background-repeat: no-repeat;
+                            background-size: 1.25rem;
+                            transition: transform .2s ease-in-out;
+                        }
+                        
+                        .accordion-button:not(.collapsed)::after {
+                            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+                            transform: rotate(-180deg);
+                        }
+                        
+                        @media only screen and (max-width:940px) {
+                            .display-3 {
+                                font-size: 2.5rem;
+                            }
+                            .our-story-card3 {
+                                height: auto;
+                            }
+                        }
+                        
+                        .uu li {
+                            font-size: 12px;
+                            color: #3d3939;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        
+                        .footer {
+                            background: black;
+                            z-index: 20;
+                            position: relative;
+                            top: 93px;
+                            height: auto;
+                            display: block;
+                            color: white;
+                            text-align: center;
+                            padding-top: 19px;
+                            margin-top: 40px;
+                        }
+                        
+                        @media only screen and (max-width:633px) {
+                            .footer {
+                                margin-top: 17px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:307px) {
+                            .footer {
+                                margin-top: -18px;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:600px) {
+                            .email {
+                                font-size: .8rem;
+                            }
+                        }
+                        
+                        @media only screen and (max-width:259px) {
+                            .our-story-card {
+                                top: 45px;
+                            }
+                        }
